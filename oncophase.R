@@ -75,7 +75,7 @@ theta_store <- list() # cellular prevalences
 for ( s in 1:S ) {
   
   # preallocate matrix to store cellular prevalences for this configuration
-  theta_store[[s]] <- matrix( 0, J, n)
+  theta_store[[s]] <- matrix( 0, Q, n)
   
   # for each observation
   for ( i in 1:n ) {
