@@ -106,7 +106,7 @@ for ( s in 1:S ) {
     
     # store results
     h_store[i, s] = h_post_mean
-    theta_store[[s]][1:J, i] = theta_post_mean
+    theta_store[[s]][1:Q, i] = theta_post_mean
     lp_store[i, s] = log_post_max
     
     # compute residual errors of model fit to observations
